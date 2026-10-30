@@ -116,14 +116,19 @@ Rata-rata dari 3 run (12 task, 1 juta iterasi per task):
 | Least Loaded | 2,31 | 5,21 | 1,17 | 88,9 | 1,96 |
 | Random | **2,08** | **5,76** | 1,20 | 90,8 | **1,84** |
 | Round Robin | 2,22 | 5,40 | 1,17 | **93,9** | 1,99 |
+<img width="635" height="317" alt="image" src="https://github.com/user-attachments/assets/8bce7da7-4c2e-4145-b2f1-713dbb6f57c8" />
+
 
 Grafik:
 
-![Makespan](results/chart_makespan.png)
-![Throughput](results/chart_throughput.png)
-![Estimasi biaya](results/chart_cost.png)
-![Utilization](results/chart_utilization.png)
-![Distribusi task per worker](results/chart_distribution.png)
+<img width="606" height="302" alt="image" src="https://github.com/user-attachments/assets/44819dd3-4831-441d-af13-7a5ec8136ba3" />
+<img width="639" height="566" alt="image" src="https://github.com/user-attachments/assets/9471d4c6-6779-40b2-8aac-c92964e13152" />
+
+<img width="605" height="282" alt="image" src="https://github.com/user-attachments/assets/c5b50e4c-35cf-4904-bbc2-d685d3793b71" />
+<img width="633" height="567" alt="image" src="https://github.com/user-attachments/assets/ccbf8cb0-becc-4924-a47c-70be225089de" />
+
+
+
 
 Dashboard interaktif: buka `results/dashboard.html` di browser setelah menjalankan `analyze.py`.
 
@@ -190,6 +195,8 @@ Membuat grafik, tabel, dan dashboard:
 pip install pandas matplotlib
 python analyze.py ../results/runs ../results
 ```
+<img width="1016" height="210" alt="image" src="https://github.com/user-attachments/assets/71b8138a-11d0-415b-a984-943b359f405f" />
+
 
 ## 10. Struktur Repositori
 
