@@ -1,0 +1,14 @@
+STATUS FOR PRESENTATION
+DONE:
+- Java CostGreedy scheduler implementation path.
+- Python HTTP worker path.
+- Six task run completed in the captured log.
+- SHA-256 result checksums returned.
+- Logs retained.
+
+NOT VERIFIED / NOT DONE:
+- Two separate host/hypervisor machines.
+- Four guest VMs all booted and accessible.
+- Workers deployed on guest VMs.
+- Valid comparison against a baseline scheduling algorithm.
+- Real Azure billing-cost validation.

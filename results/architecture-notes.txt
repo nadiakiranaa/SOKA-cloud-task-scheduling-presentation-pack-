@@ -1,0 +1,8 @@
+Architecture notes:
+- Scheduler: Java HTTP client.
+- Workers: Python ThreadingHTTPServer on 127.0.0.1:8001 and 127.0.0.1:8002.
+- Scheduler health-checks /health and sends POST /run.
+- CostGreedy parameters are illustrative: worker-1=0.10, worker-2=0.08 per million iterations.
+- Six tasks x 100000 iterations were completed by worker-2 in the recorded run.
+- Worker endpoints were local to the Azure parent VM in the demonstrated run.
+- Guest VM names do not establish separate physical/hypervisor hosts.

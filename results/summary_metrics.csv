@@ -1,0 +1,6 @@
+algorithm,tasks,iterations,makespan_s,throughput,est_cost,utilization_pct,mean_latency_s,completed
+costgreedy,12.0,1000000.0,2.8754,4.1763,0.96,24.125,2.5432,12.0
+costload,12.0,1000000.0,2.7633,4.5316,1.13,72.7664,1.8689,12.0
+leastloaded,12.0,1000000.0,2.3139,5.2136,1.17,88.904,1.9582,12.0
+random,12.0,1000000.0,2.0841,5.7645,1.2,90.7835,1.8414,12.0
+roundrobin,12.0,1000000.0,2.2241,5.4005,1.17,93.8686,1.9932,12.0

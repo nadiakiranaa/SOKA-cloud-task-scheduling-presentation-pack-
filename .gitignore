@@ -1,0 +1,17 @@
+# Java compiled binaries
+*.class
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+.DS_Store

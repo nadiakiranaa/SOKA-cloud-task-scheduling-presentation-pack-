@@ -1,0 +1,23 @@
+Algorithm: CostGreedy
+Available workers: 2
+
+[task-001] selected=worker-2 estimatedCost=0.008000 (assumed units)
+Result: {"task_id": "task-001", "worker": "worker-2", "status": "completed", "iterations": 100000, "execution_seconds": 0.049136, "result_sha256": "cd758603d6998fcb9ad2031cc890f438ab905e90a8439d9a303c52a6bec36f3d"}
+
+[task-002] selected=worker-2 estimatedCost=0.008000 (assumed units)
+Result: {"task_id": "task-002", "worker": "worker-2", "status": "completed", "iterations": 100000, "execution_seconds": 0.032426, "result_sha256": "036b1fe36d0372da28ff89d98e77413d7e9e089ea471deb1b06944fa98a5d304"}
+
+[task-003] selected=worker-2 estimatedCost=0.008000 (assumed units)
+Result: {"task_id": "task-003", "worker": "worker-2", "status": "completed", "iterations": 100000, "execution_seconds": 0.032597, "result_sha256": "6bfdb5eba642038dca8cb5d64c4347d7fad574f8ec154dd80a75aacfe32987b2"}
+
+[task-004] selected=worker-2 estimatedCost=0.008000 (assumed units)
+Result: {"task_id": "task-004", "worker": "worker-2", "status": "completed", "iterations": 100000, "execution_seconds": 0.033053, "result_sha256": "5b5ca6a69be7ade23e93aad6c65bcfc5e595562f5d883e3c1e1782ff732e1fe3"}
+
+[task-005] selected=worker-2 estimatedCost=0.008000 (assumed units)
+Result: {"task_id": "task-005", "worker": "worker-2", "status": "completed", "iterations": 100000, "execution_seconds": 0.0433, "result_sha256": "ed505b73cd504a43152550190b21abe190d3af3e968ac027553cdc3b03edfd59"}
+
+[task-006] selected=worker-2 estimatedCost=0.008000 (assumed units)
+Result: {"task_id": "task-006", "worker": "worker-2", "status": "completed", "iterations": 100000, "execution_seconds": 0.032631, "result_sha256": "49a24226a9eafc3eec3bd71d22858b311106d4f692736f0c52243c6f7d7b3227"}
+
+Batch wall-clock time: 0.297 seconds
+Note: costs are illustrative assumptions, not Azure billing prices.

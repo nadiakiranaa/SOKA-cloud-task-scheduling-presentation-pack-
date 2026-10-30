@@ -1,0 +1,14 @@
+algorithm,task_id,worker,status,exec_seconds,e2e_seconds,start_offset,est_cost
+costgreedy,task-001,worker-2,completed,1.850117,2.726530,0.021782,0.080000
+costgreedy,task-002,worker-2,completed,1.408682,2.489413,0.028018,0.080000
+costgreedy,task-003,worker-2,completed,1.388558,2.206829,0.027885,0.080000
+costgreedy,task-004,worker-2,completed,1.183479,1.941541,0.027602,0.080000
+costgreedy,task-005,worker-2,completed,1.624111,2.762824,0.027554,0.080000
+costgreedy,task-006,worker-2,completed,1.44056,2.451070,0.027554,0.080000
+costgreedy,task-007,worker-2,completed,1.618462,2.713282,0.027540,0.080000
+costgreedy,task-008,worker-2,completed,1.592288,2.698524,0.027540,0.080000
+costgreedy,task-009,worker-2,completed,1.586328,2.709654,0.027127,0.080000
+costgreedy,task-010,worker-2,completed,1.264021,2.346033,0.026941,0.080000
+costgreedy,task-011,worker-2,completed,1.589357,2.698228,0.026941,0.080000
+costgreedy,task-012,worker-2,completed,1.437652,2.328766,0.026941,0.080000
+#SUMMARY,costgreedy,12,1000000,2.823233,4

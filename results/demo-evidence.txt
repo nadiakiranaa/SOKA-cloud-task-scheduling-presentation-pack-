@@ -1,0 +1,17 @@
+===== 1. INFRASTRUCTURE EVIDENCE =====
+2026-10-26T09:39:57+00:00
+azurevm-agent
+Host vCPU: 2
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       1.2Gi       3.0Gi       4.1Mi       3.8Gi       6.5Gi
+Swap:             0B          0B          0B
+ Id   Name        State
+---------------------------
+ 1    host1-vm1   running
+
+ Name       MAC address          Protocol     Address
+-------------------------------------------------------------------------------
+ vnet0      52:54:00:b9:f7:78    ipv4         192.168.122.79/24
+
+
+===== END CHECK =====

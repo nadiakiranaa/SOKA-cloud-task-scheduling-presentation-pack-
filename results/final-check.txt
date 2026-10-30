@@ -1,0 +1,8 @@
+Reconstructed final check summary from the output provided in chat.
+Latest infrastructure evidence:
+- Azure host: azurevm-agent
+- Host vCPU: 2
+- RAM total: 7.8 GiB
+- Only host1-vm1 is shown in the pasted virsh output, state running.
+- host1-vm1 IP: 192.168.122.79/24
+- The pasted output does not prove that the other three guest VMs are ready.

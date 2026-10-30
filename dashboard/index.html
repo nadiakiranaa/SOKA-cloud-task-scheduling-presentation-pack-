@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CostGreedy Demo Summary</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.55;color:#1d2430}
+h1{margin-bottom:4px} .muted{color:#596579} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:24px 0}
+.card{border:1px solid #d8dee8;border-radius:12px;padding:16px} .value{font-size:1.5rem;font-weight:700}
+.warn{border-left:4px solid #b7791f;padding:12px 16px;background:#fff9eb}
+</style>
+</head>
+<body>
+<h1>Cloud Task Scheduling</h1>
+<div class="muted">CostGreedy heuristic — ringkasan demo</div>
+<div class="grid">
+  <div class="card"><div>Task selesai</div><div class="value">6 / 6</div></div>
+  <div class="card"><div>Worker terpilih</div><div class="value">worker-2</div></div>
+  <div class="card"><div>Iterasi per task</div><div class="value">100.000</div></div>
+  <div class="card"><div>Batch wall-clock</div><div class="value">0,270–0,297 s</div></div>
+</div>
+<h2>Algoritma</h2>
+<p>Scheduler memeriksa kesehatan worker, menghitung estimasi biaya, memilih worker sehat dengan nilai paling rendah, lalu mengirim task melalui HTTP.</p>
+<p>Parameter biaya demo bersifat ilustratif: worker-1 = 0,10 dan worker-2 = 0,08 per satu juta iterasi. Ini bukan harga billing Azure.</p>
+<div class="warn"><strong>Batasan yang harus dinyatakan:</strong> bukti terakhir hanya menunjukkan host1-vm1 mendapatkan IP. Belum ada bukti dua host/hypervisor terpisah, empat guest siap, worker berjalan di guest, atau perbandingan baseline yang valid.</div>
+<h2>File laporan</h2>
+<p>Buka <code>../docs/PROJECT_REPORT.md</code> dan <code>../docs/PRESENTATION_SCRIPT.md</code> dari folder paket untuk detail dan narasi.</p>
+</body>
+</html>
